@@ -15,7 +15,7 @@ const searchName = (value: string | null) => {
 
 // ** unknown */
 const carSpeed = (value: unknown) => {
-  const nothingConvert = () =>
+  const nothingConvert = (): void =>
     console.log("Nothing to convert", " => Line No: 25");
   if (typeof value === "number") {
     const result = (value * 1000) / 3600;

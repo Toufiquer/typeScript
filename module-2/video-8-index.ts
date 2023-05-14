@@ -1,4 +1,4 @@
-//** Union */
+//** Union (|)  and intersection (&)*/
 
 // enum (Bad Practice)
 enum level {

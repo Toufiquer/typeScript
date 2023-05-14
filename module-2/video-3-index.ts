@@ -7,4 +7,4 @@ const allUsersWithEmail: [string, number, string] = [
   "name of person",
   33,
   "email of person",
-];
+]; // tuple

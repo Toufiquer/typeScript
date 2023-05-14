@@ -46,3 +46,4 @@ const object1 = {
 // const { userName: name1, userName, userName: string } = object1;
 
 // console.log(userName, name1, string, " => Line No: 47");
+// output => user1,user1,user1

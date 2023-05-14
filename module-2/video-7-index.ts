@@ -1,4 +1,4 @@
-//*** Alis  */
+//*** Alis (as) */
 // use type as variable feeling 
 type UserType = {
   name: string;

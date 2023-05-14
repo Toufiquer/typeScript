@@ -58,7 +58,7 @@ type Manus = {
   name: string;
   age: number;
   city?: {};
-  books?: [IBook];
+  books?: IBook[];
   location?: "";
 };
 const man1: Manus = {
