@@ -1,0 +1,9 @@
+/* named export */
+export const add = (a: number, b: number): number => a + b;
+// import { add } from '...'
+//! common js export => export.add = add
+
+/* export default */
+/* ES6 */
+export default add;
+// import anyName from "...";
