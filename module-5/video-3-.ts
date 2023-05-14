@@ -32,6 +32,7 @@ type OProperty = Partial<Property>;
 // };
 
 /@ Required  */;
+// to make all property as required
 type PropertyR = {
   a?: string;
   b: string;
@@ -46,6 +47,7 @@ type RProperty = Required<PropertyR>;
 // };
 
 /@ ReadOnly  */;
+// to make all property as readOnly
 type PropertyReadOnly = {
   a: string;
   b: string;

@@ -1,16 +1,19 @@
 /* Polymorphism */
 class First {
   test(): void {
+    // set body
     console.log(" first", " => Line No: 4");
   }
 }
 class Second extends First {
   test(): void {
+    // set body
     console.log(" Second", " => Line No: 4");
   }
 }
 class Third extends First {
   test(): void {
+    // set body
     console.log("Third", " => Line No: 4");
   }
 }

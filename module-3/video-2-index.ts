@@ -1,4 +1,4 @@
-// ** interface and type alis 
+// ** interface and type alis
 interface IPeople {
   name: string;
   age: number;
@@ -35,3 +35,6 @@ const TMan = {
 // *** Alis with array
 type TArray = number[];
 const numberArr: TArray = [1, 2, 3];
+// assertion
+const runFn = (a: number): number => a * a;
+const res = runFn(6) as number;

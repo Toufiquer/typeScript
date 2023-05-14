@@ -59,6 +59,8 @@ class Cat extends Animal {
     return "Mew Mew";
   }
 }
+
+// check instance 
 const checkDog = (dog: Animal): dog is Dog => dog instanceof Dog;
 const checkCat = (cat: Animal): cat is Cat => cat instanceof Cat;
 const dog1 = new Dog("Dog", "dog"); // dog1 is instance of Dog
